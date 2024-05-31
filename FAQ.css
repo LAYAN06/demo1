@@ -1,0 +1,36 @@
+.box12
+{
+    background-color: rgb(163, 163, 221);
+    font-size: xx-large;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-align: left;
+    transition: 0.4s;
+    text-size-adjust: 200px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+  }
+
+  .button {
+    font-size:100px ;
+
+  }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+    
+<div class="box12">
+    <h1>Top questions regarding flight compensation</h1>
+
+    <button class="accordion">What is a disrupted flight?</button>
+    <div class="panel">
+      <p>A flight is considered disrupted and you can claim for compensation if:
+        <div class="punkter">
+            <li>The flight was delayed and was late to arrive at the destination by more than 3 hours.</li>
+            <li>The flight was cancelled less than 14 days before departure.</li>
+            <li>The air carrier refused to fly you because there were no available seats on the airplane.</li>
+        </div>
+
+    </p>
+    </div>
+    
+    
+    <button class="accordion">How do I know if I am entitled to flight compensation?</button>
+    <div class="panel">
+      <p>How do I know if I am entitled to flight compensation?
+        You are entitled to compensation if your flight was disrupted due to the airline’s fault, and the disruption fits the criteria listed in the European Parliament and Council Regulation (EC) No. 261/2004.
+        
+        The easiest way to check whether you can receive compensation from the airline is to complete the free application form on our website.</p>
+    </div>
+    
+    <button class="accordion">How long does it take to get a flight delay compensation?</button>
+    <div class="panel">
+      <p>Regulation (EC) No. 261/2004 does not set any limits or deadlines on the process. Therefore, it can take some time to get your compensation depending on the airline, the complexity of the case and internal regulations of the country.
+
+        In the rare event that the case needs to be addressed by authorities or goes to court, the compensation recovery process can take even longer. But we will try to get the compensation as fast as possible.
+        
+        This also applies to cancelled and overbooked flight compensation.</p>
+    </div>
+    <h1>Top questions regarding flight compensation</h1>
+    <button class="accordion">What if the airline refuses to pay compensation?</button>
+    <div class="panel">
+      <p>If the airline refuses to pay compensation for delayed flights, etc, we will review all of your flight-related materials and, if necessary, seek legal action.</p>
+    </div>
+
+
+    <button class="accordion">My claim has already been rejected by the airlines. Can I still use Skycop services?</button>
+    <div class="panel">
+      <p>Of course! If you sought compensation independently, but the airlines rejected it, fill in our claim form and provide all the information you have received from the airline – including the reason why your claim was denied.
+
+        If we see that the airline had no valid reason to reject your claim, we will take all necessary steps to help you get compensated..</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+   
+        
+        
+
+</div>
+
+<p> </p>
+</body>
+</html>
